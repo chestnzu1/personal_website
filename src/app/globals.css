@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-display: var(--font-fredoka), "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", sans-serif;
+  --font-body: var(--font-nunito), "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", sans-serif;
+  --animate-float: float 9s ease-in-out infinite;
+  --animate-float-slow: float 14s ease-in-out infinite;
+  --animate-wave: wave 2.5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-28px) rotate(8deg);
+  }
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(18deg);
+  }
+  40% {
+    transform: rotate(-8deg);
+  }
+  60% {
+    transform: rotate(14deg);
+  }
+  80% {
+    transform: rotate(-4deg);
+  }
+}
+
+body {
+  background: linear-gradient(135deg, #fff8ec 0%, #ffe9f2 45%, #e9f4ff 100%);
+  background-attachment: fixed;
+  color: #334155;
+  font-family: var(--font-body);
+}
+
+::selection {
+  background: #fecdd3;
+  color: #9f1239;
+}
