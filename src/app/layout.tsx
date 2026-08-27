@@ -15,7 +15,7 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   title: "Yi · Personal Website",
   description:
-    "The personal website of Yi — bioinformatics, data, and open-source tools.",
+    "Personal ",
 };
 
 export default function RootLayout({
