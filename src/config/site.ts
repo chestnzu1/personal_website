@@ -19,13 +19,18 @@ export const content = {
     education: [
       {
         degree: "Ph.D. in Bioinformatics",
-        school: "University Name",
-        year: "2020 - 2023",
+        school: "Leiden University",
+        year: "2018 - 2023",
       },
       {
-        degree: "Bachelor of Science in Biology",
-        school: "University Name",
-        year: "2016 - 2020",
+        degree: "Master's in Biology",
+        school: "Wageningen University",
+        year: "2016 - 2018",
+      },
+      {
+        degree: "Bachelor of Science in Life Sciences",
+        school: "China Agricultural University",
+        year: "2012 - 2016",
       },
     ],
     educationTitle: "Education",
@@ -44,13 +49,18 @@ export const content = {
     education: [
       {
         degree: "生物信息学博士",
-        school: "大学名称",
-        year: "2020 - 2023",
+        school: "莱顿大学",
+        year: "2018 - 2023",
       },
       {
-        degree: "生物学学士学位",
-        school: "大学名称",
-        year: "2016 - 2020",
+        degree: "生物学硕士",
+        school: "瓦赫宁根大学",
+        year: "2016 - 2018",
+      },
+      {
+        degree: "生命科学学士学位",
+        school: "中国农业大学",
+        year: "2012 - 2016",
       },
     ],
     educationTitle: "教育背景",
