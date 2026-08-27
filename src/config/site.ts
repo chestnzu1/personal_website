@@ -16,6 +16,21 @@ export const content = {
       "This site is a fresh start — a place for research notes, thoughts, and growth. 🌱",
     ],
     tags: ["🧬 Bioinformatics", "🐍 Python", "📊 Data", "🌱 Always learning"],
+    publicationsTitle: "Publications",
+    publications: [
+      {
+        type: "Journal Publication",
+        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v6OOLJYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=v6OOLJYAAAAJ:UHK10RUVsp4C",
+      },
+      {
+        type: "Conference Publication",
+        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v6OOLJYAAAAJ&sortby=pubdate&citation_for_view=v6OOLJYAAAAJ:LI9QrySNdTsC",
+      },
+      {
+        type: "Conference Publication",
+        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v6OOLJYAAAAJ&sortby=pubdate&citation_for_view=v6OOLJYAAAAJ:IUKN3-7HHlwC",
+      },
+    ],
     education: [
       {
         degree: "Ph.D. in Bioinformatics",
@@ -46,6 +61,21 @@ export const content = {
       "这个网站是一个新的开始 —— 用来记录研究、思考和不断的成长。🌱",
     ],
     tags: ["🧬 生物信息学", "🐍 Python", "📊 数据分析", "🌱 持续学习中"],
+    publicationsTitle: "发表论文",
+    publications: [
+      {
+        type: "期刊论文",
+        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v6OOLJYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=v6OOLJYAAAAJ:UHK10RUVsp4C",
+      },
+      {
+        type: "会议论文",
+        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v6OOLJYAAAAJ&sortby=pubdate&citation_for_view=v6OOLJYAAAAJ:LI9QrySNdTsC",
+      },
+      {
+        type: "会议论文",
+        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v6OOLJYAAAAJ&sortby=pubdate&citation_for_view=v6OOLJYAAAAJ:IUKN3-7HHlwC",
+      },
+    ],
     education: [
       {
         degree: "生物信息学博士",

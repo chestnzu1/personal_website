@@ -130,6 +130,26 @@ export default function Home() {
           {/* Sidebar */}
           <aside className="lg:col-span-1">
             <div className="sticky top-6 space-y-8">
+              {/* Publications */}
+              <section className="rounded-lg border border-slate-200 bg-slate-50 p-6">
+                <h3 className="mb-6 text-lg font-semibold text-slate-900">
+                  {t.publicationsTitle}
+                </h3>
+                <div className="space-y-3">
+                  {t.publications.map((pub, idx) => (
+                    <a
+                      key={idx}
+                      href={pub.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="block rounded-md border border-slate-300 bg-white p-3 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-100 hover:border-slate-400"
+                    >
+                      {pub.type} ↗
+                    </a>
+                  ))}
+                </div>
+              </section>
+
               {/* Education */}
               <section className="rounded-lg border border-slate-200 bg-slate-50 p-6">
                 <h3 className="mb-6 text-lg font-semibold text-slate-900">
