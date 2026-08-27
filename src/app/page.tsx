@@ -131,40 +131,53 @@ export default function Home() {
           <aside className="lg:col-span-1">
             <div className="sticky top-6 space-y-8">
               {/* Publications */}
-              <section className="rounded-lg border border-slate-200 bg-slate-50 p-6">
-                <h3 className="mb-6 text-lg font-semibold text-slate-900">
+              <section>
+                <h3 className="mb-4 text-lg font-semibold text-slate-900">
                   {t.publicationsTitle}
                 </h3>
-                <div className="space-y-3">
+                <div className="space-y-4">
                   {t.publications.map((pub, idx) => (
                     <a
                       key={idx}
                       href={pub.url}
                       target="_blank"
                       rel="noreferrer"
-                      className="block rounded-md border border-slate-300 bg-white p-3 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-100 hover:border-slate-400"
+                      className="block group"
                     >
-                      {pub.type} ↗
+                      <div className="flex items-start gap-2">
+                        <span className="mt-1 inline-block rounded bg-slate-900 px-2 py-0.5 text-xs font-semibold text-white whitespace-nowrap">
+                          {pub.type}
+                        </span>
+                        <p className="text-sm font-medium text-slate-700 group-hover:text-slate-900 transition-colors line-clamp-3">
+                          {pub.title}
+                        </p>
+                      </div>
                     </a>
                   ))}
                 </div>
               </section>
 
               {/* Education */}
-              <section className="rounded-lg border border-slate-200 bg-slate-50 p-6">
+              <section>
                 <h3 className="mb-6 text-lg font-semibold text-slate-900">
                   {t.educationTitle}
                 </h3>
                 <div className="space-y-6">
                   {t.education.map((edu, idx) => (
-                    <div key={idx}>
-                      <h4 className="font-semibold text-slate-900">
-                        {edu.degree}
-                      </h4>
-                      <p className="mt-1 text-sm text-slate-600">
-                        {edu.school}
-                      </p>
-                      <p className="text-xs text-slate-500">{edu.year}</p>
+                    <div key={idx} className="pb-6 border-b border-slate-200 last:border-b-0 last:pb-0">
+                      <div className="flex items-start justify-between gap-2">
+                        <div className="flex-1">
+                          <h4 className="font-semibold text-slate-900 text-sm">
+                            {edu.degree}
+                          </h4>
+                          <p className="mt-1 text-xs text-slate-600">
+                            {edu.school}
+                          </p>
+                        </div>
+                        <span className="text-xs text-slate-500 whitespace-nowrap ml-2">
+                          {edu.year}
+                        </span>
+                      </div>
                     </div>
                   ))}
                 </div>

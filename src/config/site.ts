@@ -19,15 +19,18 @@ export const content = {
     publicationsTitle: "Publications",
     publications: [
       {
-        type: "Journal Publication",
+        type: "Journal",
+        title: "Establishing a consensus for the hallmarks of cancer based on gene ontology and pathway annotations",
         url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v6OOLJYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=v6OOLJYAAAAJ:UHK10RUVsp4C",
       },
       {
-        type: "Conference Publication",
+        type: "Conference",
+        title: "FAIR Functional Enrichment: Assessing and Modelling Provenance in Omics Results",
         url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v6OOLJYAAAAJ&sortby=pubdate&citation_for_view=v6OOLJYAAAAJ:LI9QrySNdTsC",
       },
       {
-        type: "Conference Publication",
+        type: "Conference",
+        title: "Exploring the Evolution of the Gene Ontology and its Impact on Enrichment Analysis",
         url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v6OOLJYAAAAJ&sortby=pubdate&citation_for_view=v6OOLJYAAAAJ:IUKN3-7HHlwC",
       },
     ],
@@ -64,15 +67,18 @@ export const content = {
     publicationsTitle: "发表论文",
     publications: [
       {
-        type: "期刊论文",
+        type: "期刊",
+        title: "Establishing a consensus for the hallmarks of cancer based on gene ontology and pathway annotations",
         url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v6OOLJYAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=v6OOLJYAAAAJ:UHK10RUVsp4C",
       },
       {
-        type: "会议论文",
+        type: "会议",
+        title: "FAIR Functional Enrichment: Assessing and Modelling Provenance in Omics Results",
         url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v6OOLJYAAAAJ&sortby=pubdate&citation_for_view=v6OOLJYAAAAJ:LI9QrySNdTsC",
       },
       {
-        type: "会议论文",
+        type: "会议",
+        title: "Exploring the Evolution of the Gene Ontology and its Impact on Enrichment Analysis",
         url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=v6OOLJYAAAAJ&sortby=pubdate&citation_for_view=v6OOLJYAAAAJ:IUKN3-7HHlwC",
       },
     ],
